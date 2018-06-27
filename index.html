@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website Cooking Template</title>
+	<link href="img/salad.png" rel="shortcut icon" type="image/x-icon" />
+
+	<!-- Link CSS -->
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:300,400,500,700&amp;subset=vietnamese" rel="stylesheet">
+	<link rel="stylesheet" href="vendor/font-awsome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- Header -->
+	<header id="header">
+		<div class="header-container">
+			<!-- Header content top -->
+			<div class="header-content-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 logo">
+							<img src="img/logo.png" alt="logo">
+						</div>
+						<div class="col-md-5">
+							<div class="input-group">
+								<input class="form-control search-box" placeholder="Nhập từ khóa cần tìm ..." type="text">
+								<button class="btn btn-control btn-search" type="button"><i class="fa fa-search"></i></button>
+							</div>
+						</div>
+						<div class="col-md-3 ml-auto login">
+							<a href="#login"><span>Đăng nhập</span></a>
+							<button class="btn btn-control btn-login" type="button"><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end header content top -->
+
+			<!-- Header content bottom -->
+			<div class="header-content-bottom">
+				<div class="container">
+					<nav class="menu-top">
+						<ul class="nav">
+							<li class="nav-item"><a href="#trangtru" class="nav-link">Trang trủ</a></li>
+							<li class="nav-item"><a href="#monngon" class="nav-link">Món ngon</a></li>
+							<li class="nav-item"><a href="#gocbep" class="nav-link">Góc bếp</a></li>
+							<li class="nav-item"><a href="#thu" class="nav-link">Thử &amp; Cảm nhận</a></li>
+							<li class="nav-item"><a href="#video" class="nav-link">Video</a></li>
+							<li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+							<li class="nav-item"><a href="#doisong" class="nav-link">Đời sống ẩm thực</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- end header content bottom -->
+		</div>
+	</header>
+	<!-- end header -->
+
+	<!-- Slider -->
+	<div class="slider">
+		<div class="container">
+			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-slider" data-slide-to="1"></li>
+					<li data-target="#carousel-slider" data-slide-to="2"></li>
+					<li data-target="#carousel-slider" data-slide-to="3"></li>
+					<li data-target="#carousel-slider" data-slide-to="4"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="img/slider/banhbaosaurieng.jpg" alt="bánh bao sầu riêng">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/slider/chumruocmuoiot.jpg" alt="chùm ruộc muối ớt">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/slider/longnuong.jpg" alt="lòng nướng">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/slider/suongsaobanhsuai.jpg" alt="sương sáo">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/slider/taiheo.jpg" alt="tai heo">
+					</div>
+				</div>
+			</div>
+			<div class="slider-search">
+				<div class="title">
+					<h1 class="text-center">Nấu gì hôm nay ? Tìm ngay công thức</h1>
+				</div>
+				<div class="search-container">
+					<div class="input-group">
+						<button class="btn btn-control btn-search btn-slider-search" type="button"><i class="fa fa-search"></i></button>
+						<input class="form-control slider-search-input" placeholder="Nhập món ăn cần tìm ..." type="text">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end Slider -->
+
+	<!-- Food -->
+	<section class="food section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-title">
+					<h1 class="title-header">Món Ngon</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/food/tranchau.jpg" alt="trân châu">
+					<div class="food-title">
+						<a href="#link" class="title-link">Trân châu đậu biếc dẻo</a><br>
+						<span>công thức bởi:</span> <a href="#links" class="author-food">Bếp Hồng</a>
+						<div class="food-view">
+							<p>
+								<i class="fa fa-clock-o"></i><span>45p</span>
+								<i class="fa fa-bolt"></i><span>Dễ</span>
+								<i class="fa fa-eye"></i><span>90</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/food/galuocsa.jpg" alt="gà luộc sả">
+					<div class="food-title">
+						<a href="#link" class="title-link">Gà luộc sả</a><br>
+						<span>công thức bởi:</span> <a href="#links" class="author-food">Uyên Bánh Mì</a>
+						<div class="food-view">
+							<p>
+								<i class="fa fa-clock-o"></i><span>1h</span>
+								<i class="fa fa-bolt"></i><span>Trung bình</span>
+								<i class="fa fa-eye"></i><span>57</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/food/banhflan.jpg" alt="bánh flan">
+					<div class="food-title">
+						<a href="#link" class="title-link">Bánh flan nướng cốc sứ</a><br>
+						<span>công thức bởi:</span> <a href="#links" class="author-food">BẾP THÁNG 12</a>
+						<div class="food-view">
+							<p>
+								<i class="fa fa-clock-o"></i><span>40p</span>
+								<i class="fa fa-bolt"></i><span>Dễ</span>
+								<i class="fa fa-eye"></i><span>1.03k</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/food/trungcuon.jpg" alt="trứng cuộn">
+					<div class="food-title">
+						<a href="#link" class="title-link">Trứng cuộn cá ngừ ngũ sắc</a><br>
+						<span>công thức bởi:</span> <a href="#links" class="author-food">Chitoge Kirisaki</a>
+						<div class="food-view">
+							<p>
+								<i class="fa fa-clock-o"></i><span>20p</span>
+								<i class="fa fa-bolt"></i><span>Dễ</span>
+								<i class="fa fa-eye"></i><span>73</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/food/hoanhthanh.jpg" alt="hoành thánh">
+					<div class="food-title">
+						<a href="#link" class="title-link">Hoàn thánh nhân tôm cà ri</a><br>
+						<span>công thức bởi:</span> <a href="#links" class="author-food">Navbonnie Cao</a>
+						<div class="food-view">
+							<p>
+								<i class="fa fa-clock-o"></i><span>45p</span>
+								<i class="fa fa-bolt"></i><span>Dễ</span>
+								<i class="fa fa-eye"></i><span>239</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/food/banhsuachua.png" alt="bánh sữa chua">
+					<div class="food-title">
+						<a href="#link" class="title-link">Bánh sữa chua kiểu Đài Loan</a><br>
+						<span>công thức bởi:</span> <a href="#links" class="author-food">Quỳnh Mai</a>
+						<div class="food-view">
+							<p>
+								<i class="fa fa-clock-o"></i><span>30p</span>
+								<i class="fa fa-bolt"></i><span>Trung bình</span>
+								<i class="fa fa-eye"></i><span>155</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end Food -->
+
+	<!-- Kitchen -->
+	<section class="kitchen section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-title">
+					<h1 class="title-header">Góc bếp</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<img src="img/kitchen/01.png" alt="ảnh minh họa 1">
+					<div class="kitchen-description">
+						<a href="#links" class="kitchen-links">Tuyệt chiêu pha 4 món nước chấm từ nước mắm ngon</a>
+						<p class="paragraph">Bỏ túi công thức tuyệt chiêu cho món chấm đang rất hot này sẽ giúp bạn luôn tự tin với món ngon do chính tay mình làm. Chỉ nhìn thôi đã vô cùng...</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="section-small-kitchen">
+						<img src="img/kitchen/02.png" alt="ảnh minh họa 2">
+						<a href="#links" class="kitchen-links">Mẹ 5 con chia sẻ cách làm mới làn da cho mọi lứa tuổi</a>
+					</div>
+					<div class="section-small-kitchen">
+						<img src="img/kitchen/03.png" alt="ảnh minh họa 3">
+						<a href="#links" class="kitchen-links">Tăng 5cm vòng ngực tự nhiên, không cần đụng đến dao kéo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end kitchen -->
+
+	<!-- Check & Feel -->
+	<section class="check section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-title">
+					<h1 class="title-header">Thử &amp; Cảm nhận</h1>
+				</div>
+			</div>
+			<div class="row section-content">
+				<div class="col-md-4">
+					<img src="img/check/lau.png" alt="ảnh minh họa">
+				</div>
+				<div class="col-md-8">
+					<div class="check-sub">
+						<a href="#links" class="kitchen-links check-links">Thêm lựa chọn mới tại con đường ẩm thực sài thành</a><br>
+						<a href="#links" class="describe">Nhà hàng</a>
+						<p class="paragraph">Tọa lạc ngay cung đường ẩm thực sầm uất nhất Sài Thành hiện nay, thiên đường lẩu Hutong Phan Xích Long chờ bạn đến “chinh phục”!</p>
+						<div class="author">
+							<img src="img/check/default_avatar.png" alt="ảnh đại diện" class="avatar">
+							<span class="author-name">Huyền Châu</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row section-content">
+				<div class="col-md-4">
+					<img src="img/check/bikip.png" alt="ảnh minh họa">
+				</div>
+				<div class="col-md-8">
+					<div class="check-sub">
+						<a href="#links" class="kitchen-links check-links">3 bí quyết chăm sóc gia đình và bản thân cho phụ nữ hiện đại</a><br>
+						<a href="#links" class="describe">Thiết bị, dụng cụ bếp</a>
+						<p class="paragraph">Từ xưa đến nay, việc nội trợ, chăm sóc gia đình luôn gắn liền với người phụ nữ. Tuy nhiên xã hội ngày càng bình đẳng tạo cho phụ nữ nhiều cơ hội để học tập, làm việc và thăng tiến bên cạnh đó cũng đối diện với không ít áp lực.</p>
+						<div class="author">
+							<img src="img/check/avatar_58.jpg" alt="ảnh đại diện" class="avatar">
+							<span class="author-name">Bếp Gia Đình</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end Check & Feel -->
+
+	<!-- Video -->
+	<section class="video section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 section-title">
+					<h1 class="title-header">Video</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<a href="#links">
+						<img src="img/video/nuoccham.jpg" alt="ảnh minh họa">
+					</a>
+					<a href="#links" class="kitchen-links">Video: Công thức pha 4 loại nước chấm ngon tuyệt cho bữa cơm nhà</a>
+				</div>
+				<div class="col-md-3">
+					<a href="#links">
+						<img src="img/video/anvat.jpg" alt="ảnh minh họa">
+					</a>
+					<a href="#links" class="kitchen-links">Video: Điểm danh 10 món ăn vặt Đà Nẵng nhất định phải nếm thử</a>
+				</div>
+				<div class="col-md-3">
+					<a href="#links">
+						<img src="img/video/phucvi.jpg" alt="ảnh minh họa">
+					</a>
+					<a href="#links" class="kitchen-links">Phúc vị uyên ương: Mỹ vị xiêu lòng khách quý</a>
+				</div>
+				<div class="col-md-3">
+					<a href="#links">
+						<img src="img/video/traicay.jpg" alt="ảnh minh họa">
+					</a>
+					<a href="#links" class="kitchen-links">Tuyệt chiêu làm nước trái cây ngâm siêu ngon, siêu dễ cho ngày Hè</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end Video -->
+
+	<!-- Blog -->
+	<section class="blog section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-title">
+					<h1 class="title-header">Blog</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9 offset-md-3">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="img/blog/default_avatar.png" alt="ảnh đại diện" class="avatar">
+							<div class="author-name-blog">
+								<a href="#links" class="kitchen-links">Đào Bích Châu</a>
+							</div>
+							<div class="view-blog">
+								<i class="fa fa-book"></i> <span>21 bài viết</span> <br>
+								<i class="fa fa-eye"></i> <span>19</span> <br>
+								<i class="fa fa-thumbs-o-up"></i> <span>400</span> <br>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<img src="img/blog/avatar_1.jpg" alt="ảnh đại diện" class="avatar">
+							<div class="author-name-blog">
+								<a href="#links" class="kitchen-links">Nguyễn An</a>
+							</div>
+							<div class="view-blog">
+								<i class="fa fa-book"></i> <span>45 bài viết</span> <br>
+								<i class="fa fa-eye"></i> <span>16</span> <br>
+								<i class="fa fa-thumbs-o-up"></i> <span>278</span> <br>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<img src="img/blog/avatar_2.jpg" alt="ảnh đại diện" class="avatar">
+							<div class="author-name-blog">
+								<a href="#links" class="kitchen-links">Kim Oanh</a>
+							</div>
+							<div class="view-blog">
+								<i class="fa fa-book"></i> <span>14 bài viết</span> <br>
+								<i class="fa fa-eye"></i> <span>11</span> <br>
+								<i class="fa fa-thumbs-o-up"></i> <span>170</span> <br>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end Blog -->
+
+	<!-- Life -->
+	<section class="life section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-title">
+					<h1 class="title-header">Đời sống ẩm thực</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/life/dau_bep.jpg" alt="ảnh minh họa">
+					<div class="life-description">
+						<a href="#links" class="kitchen-links">Sốc: Đầu bếp nổi tiếng thế giới Anthony Bourdain qua đời</a> <br>
+						<p class="paragraph">Anthony Bourdain - đầu bếp kiêm nhân vật truyền hình nổi tiếng, người được nhiều khán giả Việt biết đến khi từng cùng Tổng thống Mỹ Barack Obama ăn bún chả Hà Nội trong chuyến thăm Việt Nam năm 2016 vừa qua đời ở tuổi 61. Nguyên nhân ban đầu được cho là tự tử.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/life/marry.png" alt="ảnh minh họa">
+					<div class="life-description">
+						<a href="#links" class="kitchen-links">Cơ hội sắm cưới và mua vàng với giá cực tốt</a> <br>
+						<p class="paragraph">Triển lãm cưới thường niên Marry Wedding Day không chỉ là cơ hội “vàng” để các cặp đôi chuẩn bị “từ A- Z” cho đám cưới mà còn là cơ hội để bạn chọn mua các món quà cưới ấn tượng với giá hấp dẫn.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/life/kinh_doanh.png" alt="ảnh minh họa">
+					<div class="life-description">
+						<a href="#links" class="kitchen-links">Hè này kinh doanh gì thì "hot"?</a> <br>
+						<p class="paragraph">Kem sẽ là sản phẩm tiềm năng để bạn chọn kinh doanh trong Hè này đấy! Cũng khám phá những cách phối hợp kem thật hoàn hảo mà ai cũng thích nhé!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end life -->
+
+	<!-- Footer -->
+	<footer class="footer">
+		
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<a href="#link" class="footer-links">Món ngon</a>
+						<div class="row">
+							<div class="col-md-6 footer-menu-link">
+								<ul>
+									<li><a href="#" class="footer-menu-small-link">Món ăn sáng</a></li>
+									<li><a href="#" class="footer-menu-small-link">Món canh</a></li>
+									<li><a href="#" class="footer-menu-small-link">Món ngon cuối tuần</a></li>
+									<li><a href="#" class="footer-menu-small-link">Thức uống</a></li>
+									<li><a href="#" class="footer-menu-small-link">Món ngon ngày lễ</a></li>
+									<li><a href="#" class="footer-menu-small-link">Món ngon các nước</a></li>
+								</ul>
+							</div>
+							<div class="col-md-6 footer-menu-link">
+								<ul>
+									<li><a href="#" class="footer-menu-small-link">Món mặn</a></li>
+									<li><a href="#" class="footer-menu-small-link">Món ăn vặt</a></li>
+									<li><a href="#" class="footer-menu-small-link">Món chay</a></li>
+									<li><a href="#" class="footer-menu-small-link">Làm bánh</a></li>
+									<li><a href="#" class="footer-menu-small-link">Món ngon cho bé</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<a href="#link" class="footer-links">Góc bếp</a>
+						<ul>
+							<li><a href="#" class="footer-menu-small-link">Trang trí bếp</a></li>
+							<li><a href="#" class="footer-menu-small-link">Mẹo vặt</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<a href="#link" class="footer-links">Thử &amp; cảm nhận</a>
+						<ul>
+							<li><a href="#" class="footer-menu-small-link">Thiết bị, dụng cụ bếp</a></li>
+							<li><a href="#" class="footer-menu-small-link">Thực phẩm</a></li>
+							<li><a href="#" class="footer-menu-small-link">Nhà hàng</a></li>
+							<li><a href="#" class="footer-menu-small-link">Tiệm bánh</a></li>
+							<li><a href="#" class="footer-menu-small-link">Cafe</a></li>
+						</ul>
+					</div>
+					<div class="col-md-1">
+						<a href="#links" class="footer-links">Chia sẻ</a>
+						<ul>
+							<li><a href="#" class="footer-menu-small-link">Blog</a></li>
+							<li><a href="#" class="footer-menu-small-link">Thảo luận</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<a href="#link" class="footer-links">Đời sống ẩm thực</a>
+						<ul>
+							<li><a href="#" class="footer-menu-small-link">Ẩm thực Hong Kong</a></li>
+							<li><a href="#" class="footer-menu-small-link">Món ngon Sài Gòn</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>Thiết kế bởi <a href="#">Chicken Hero</a></p>
+						<div class="infor-author">
+							<ul>
+								<li><a href="#" class="link-autor"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#" class="link-autor"><i class="fa fa-envelope-o"></i></a></li>
+								<li><a href="#" class="link-autor"><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end Footer -->
+
+	<!-- Link JS -->
+	<script src="vendor/js/jquery-3.2.1.min.js"></script>
+	<script src="vendor/bootstrap/js/jquery-slim.min.js"></script>
+	<script src="vendor/bootstrap/js/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
